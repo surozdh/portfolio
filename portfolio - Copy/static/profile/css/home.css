@@ -1,0 +1,69 @@
+.profile-img {
+  height: 200px;
+  width: 200px;
+  margin-top:5%;
+  margin-left: 115px;
+  background: url("https://scontent.fktm2-2.fna.fbcdn.net/v/t39.30808-6/251502940_1555662438102615_830745891197715899_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iZlhBkw0u9YAX9lBxzO&_nc_ht=scontent.fktm2-2.fna&oh=00_AfBtESa2hI2MPKc8ABHboSJJEQIjs-Hi_EtHT3Dl-XpavQ&oe=65550806");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -55px;
+  left: -55px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#login-container {
+  margin-top: 55px;
+  margin-left: 100px;
+  height: 300px;
+  width: 290px;
+  padding: 15px;
+  border-radius: 5px;
+  background:white;
+  position: relative;
+  
+  box-shadow: 5px 5px 5px rgba(228, 7, 7, 0.982);
+
+ 
+}
+.login-container ,h1 
+{
+  font-family: "Sriracha", arial, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #1d1404;
+}
+.login-container ,.description
+{
+  color:black;
+  margin-bottom: 20px;
+}
+
+
+#login-container1 {
+  margin-top: -350px;
+  margin-left: 770px;
+  height: 550px;
+  width: 450px;
+  padding: 25px;
+  border-radius: 5px;
+  background:rgb(232, 231, 231);
+  position: relative;
+  box-shadow: 10px 10px 10px rgba(243, 240, 240, 0.982);
+  box-shadow: 5px 5px 5px rgba(228, 7, 7, 0.982);
+ 
+}
+.login-container1 ,h1 
+{
+  font-family: "Sriracha", arial, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: rgb(15, 12, 7);
+}
+.login-container1 ,.description1
+{
+  color:rgb(14, 14, 14);
+  margin-bottom: 20px;
+}

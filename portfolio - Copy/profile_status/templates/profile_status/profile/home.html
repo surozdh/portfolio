@@ -1,0 +1,44 @@
+{% extends 'auth_apps/base/base.html' %} 
+{% block content %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'profile/css/home.css' %}">
+</head>
+<body>
+  {% csrf_token %}
+  <div class="profile-img"></div>
+
+
+
+  <div id="login-container">
+  
+    <h1>
+      Surozdh
+    </h1>
+    <div class="description">
+      Hi! I am age 26. A frontend developer.Not experienced yet with any projects but i am willing to take experience and built up the foundation for the solid background.
+    </div>
+    
+    <button>Hire Me</button>
+    <p>Email: bbsurozz@gmail.com</p>
+  </div>
+
+  <div id="login-container1">
+  
+    <h1>
+      Details:
+    </h1>
+    <div class="description1">
+      I am humble in learning more about computer language.Tho my decision is quiet late in choosing the subject since my background is business i do not regret with my past cause every field has a benefits in some point in places with opportunities and right timings.Reason I want to work in It ground is cause I find the codings interesting and working in the frontend is like painting an art splashing colors in sketch surfaces. <hr>Without throwing myself in the ocean i would not learn to swim so i have to swim and in order for even tho i am lacking i am eager to throw myself in the ocean and face the consequences with pride and learn from my mistakes.And tho i ain't experience even you know you want this guy who is honest!.I have work with cloud factory exprienced with data entries,image annotation and net working and I continued it for almost 5 months. 
+    </div>
+        
+  </div>
+
+
+    
+</body>
+</html>
+{% endblock content%}
